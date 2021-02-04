@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>RALLYTRADE</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+	</head>
+	<body>
+		<nav>
+			<input type="checkbox" id="check" />
+			<label for="check" class="checkbtn">
+				<i style='margin-right: 40px; color: #d4af37' class="fas fa-bars"></i>
+			</label>
+			<label class="logo">
+				<img src="./assets/logo.png" alt="logo" />
+			</label>
+			<ul>
+				<li>
+					<a class="active" href="#div_id">HOME</a> <span>&#10073; </span>
+				</li>
+				<li><a href="#">ABOUT US</a><span>&#10073; </span></li>
+				<li><a href="#">EVENTS</a><span>&#10073; </span></li>
+				<li><a href="#">TRADING</a><span>&#10073; </span></li>
+				<li><a href="#">PARTNERS</a></li>
+
+				<ul>
+					<li><a href="#">LOGIN </a> <span>&#10073; </span></li>
+					<li><a href="#">REGISTER </a></li>
+					<li><a href="#">+234 901 874 0318 </a></li>
+				</ul>
+			</ul>
+		</nav>
+    <section id="div_id">
+      <section>
+				<div class="landing-page">
+					<p class='rally-top' style='font-weight: 700;' >
+						SignUp with RallyTrade in few minutes
+					</p>
+         
+          
+
+          <div id="main">
+            <!-- Tab Buttons -->
+            <div id="tab-btn">
+              <a href="#" class="register-tab"> REGISTER</a>
+              <a href="#" class="login-tab active  ">LOGIN</a>
+            </div>
+          
+            <!-- Registration Form -->
+            <div class="register-box">
+              <form action="#" method="post" id="reg-form">
+                <input type="text" name="uname" placeholder="First name" class="inp" required autofocus /><br />
+                <input type="text" name="email" placeholder="Last name" class="inp" required /><br />
+                <input type="email" name="pass" placeholder="Email" class="inp" required /><br />
+                <input type="text" name="repass" placeholder="Phone Number" class="inp" required /><br />
+                <input type="text" name="repass" placeholder="Country" class="inp" required /><br />
+                <div style='display: flex;'> 
+               <input type="checkbox">
+                <h4 style='padding-left: 9px; font-size: 12px; font-weight: 700; padding-bottom: 9px;'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut minus quos sed rerum. Iure repellendus quas, expedita magnam quibusdam voluptatum quos maxime exercitationem, distinctio sunt sapiente eligendi ullam nemo laboriosam.</h4>
+              </div> 
+              <div style='display: flex; flex-direction: row; justify-content: space-between; justify-items: center;'>
+                <div style='display: flex; flex-direction: row;   justify-content: space-around;' style='padding-left: 25px;'>
+                  <input style='padding-left: 25px;'  type='radio' text='Demo'> <p style='padding-right: 10px;'>Demo</p>
+                  <input type='radio'><p >Real</p>
+                </div>
+                <div style='display: flex; flex-direction: row;'>
+                  <input type='radio' text='Demo'> <p style='padding-right: 10px;'>USD</p>
+                  <input type='radio'><p style='padding-right: 25px;'>NGN</p>
+                </div>
+              </div>
+              <div style="display: flex; justify-content: center;">
+                <input type="submit" name="submit" value="OPEN ACCOUNT" class="sub-btn" />
+              </div>
+              </form>
+            </div>
+              <!-- Login Form -->
+              <div class="login-box">
+                <h2>Rally Trade  <span style='font-size:20px;'> login&#9997;</span></h2>
+                <form action="#" method="post" id="login-form">
+                  <input type="text" name="username" placeholder="Username" class="inp" required autofocus /><br />
+                  <input type="password" name="password" placeholder="Password" class="inp" required /><br />
+                  <a href="#" id="forgot">Forgot Password?</a><br />
+                  <input type="submit" name="submit" value="SIGN IN" class="sub-btn" />
+                </form>
+              </div>
+          </div>
+
+
+				</div>
+		 
+    </section>
+    
+		<section>
+      <div class="stamps">
+        <div class="stampsEmpty" ></div>
+        <div class="stampsA">
+          <img class="badges" src="./assets/shield.png" />
+          <p style='font-size: 0.8em; font-weight: 900;'>Regulated & Secure</p>
+        </div>
+        <div class="stampsB">
+          <img class="badges" src="./assets/ribbon.png" />
+          <p style='font-size: 0.8em; font-weight: 900;'>Award Winning</p>
+        </div>
+        <div class="stampsC">
+          <img class="badges" src="./assets/leverage.png" />
+          <p style='font-size: 0.8em; font-weight: 900;'>1:1000 Leverage</p>
+        </div>
+        <div class="stampsD">
+          <img class="badges" src="./assets/training.png" />
+          <p style='font-size: 0.8em; font-weight: 900; width: 10vw;'>Live Seminars & Training</p>
+        </div>
+        <div class="stampsE">
+          <img class="badges" src="./assets/coins.png" />
+          <p style='font-size: 0.8em; font-weight: 900;'>Advanced Trading Platform</p>
+        </div>
+        <div class="stampsF">
+          <img class="badges" src="./assets/instruments.png" />
+          <p style='font-size: 0.8em; font-weight: 900;'>500+ Trading Instruments</p>
+        </div>
+      </div>
+    </section>
+		 
+    <section>
+      <div class="double-col-container">
+        <div class="double-col-1">
+          <h3> Open your account to start trading today!</h3>
+          <p>
+            Standard Account: $100 + bonus
+            Competitive spreads, all round offering
+          </p>
+
+          <p>
+            Basic Account: $100 + bonus
+            Same competitive spreads, smaller trade sizes
+          </p>
+
+          <p> Pro Account: $500 + bonus</p>
+          <p>No commissions, no requotes, super tight spreads</p>
+         
+        </div>
+        <div class="double-col-2">
+          <h3>ADDRESS</h3>
+          <h3>FRNG Lagos</h3>
+          <p>Fanis House, 21 Adeniyi Jones Avenue, Ikeja, Lagos State</p>
+          <p> Phone: +234 901 874 0318</p>
+
+          <h3 style='margin-top: 1em;'>
+            FRNG Port Harcout
+          </h3>
+          <p>2nd Floor, City View Plaza, No 26a Aba Road, Beside Market Junction, Port Harcout</p>
+          <p>Phone: +234 802 822 3337</p>
+
+          <h3 style='margin-top: 1em;'>
+            FRNG Ibadan
+          </h3>
+          <p>2nd Floor, Owoade House, Al Akinyemi Way, Ring Road, Ibadan, Oyo State </p>
+          <p>Phone: +234 802 722 2332</p>
+           
+
+          <h3 style='margin-top: 1em;'>
+            FRNG Port Abuja
+          </h3>
+          <p>3rd Floor Lifestyle House, No.3 Mike Akhigbe way, Jabi Abuja</p>
+          <p>Phone: +234 802 722 2332</p>
+          <p>Phone: +234 902 722 2222</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="footer">
+        <h3>Join over 3 million people who have already chosen RallyTrade</h3>
+        <p style='padding-top: 25px;'>Rally Trade is an international online broker providing highly competitive 
+          
+  brokerage services to emerging financial economies.</p>
+  <p> We infuse cutting edge technology, low transactional fees with an array of financial instruments to give you an unmatched trading experience.</p>
+  <p> We offer trading and other services in Forex, commodities, precious metals, shares, indices and other financial instruments.</p>
+         
+        <p style='padding-top: 23px;'>Risk Warning: Our products are traded on margin and carry a high level of risk and it is possible to lose all your capital.</p>
+        <p>These products may not be suitable to everyone and you should ensure that you understand the risks involved.</p>
+
+
+        <p style='padding-top: 23px;'>Rally Trade &#169; 2020. Privacy Policy</p>
+      </div>
+    </section>
+   
+	</body>
+</html>
