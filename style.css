@@ -9,6 +9,8 @@ body {
 	font-family: "Roboto", sans-serif;
 	width: 100vw;
 }
+
+/* NAVIGATION BAR SECTION*/
 nav {
 	background: #f7f5f5;
 	height: 80px;
@@ -268,13 +270,8 @@ a:hover {
 		left: 0;
 	}
 }
-/*
-section {
-	background: url("./assets/blue-man.jpg") no-repeat;
-	background-size: cover;
-	height: calc(100vh - 80px);
-}
-*/
+
+/* NAVIGATION BAR SECTION ENDS HERE*/
 
 /* LANDING PAGE SECTION  STARTS HERE*/
 
@@ -809,6 +806,25 @@ h2 {
 	font-size: 1.2em;
 }
 
+@media screen and (max-width: 663px) {
+	.double-col-1 {
+		width: 50%;
+		border: none;
+		padding: 0.2em;
+		text-align: left;
+		border-right: 0.1px solid rgb(44, 43, 43);
+	}
+	.double-col-1 h3 {
+		font-size: 1.2em;
+		padding: 0;
+	}
+	.double-col-2 {
+		width: 50%;
+		padding: 0.2em;
+		text-align: right;
+	}
+}
+
 @media screen and (max-width: 650px) {
 	.double-col-container {
 		flex-direction: column;
@@ -1148,3 +1164,5 @@ h2 {
 }
 
 /* END OF FOOTER SECTION*/
+
+/* THANKS FOR VIEWING*/
